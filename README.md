@@ -247,6 +247,25 @@ In a separate terminal:
 	* Connection #0 to host 127.0.0.1 left intact
 	</html>* Closing connection #0
 	~$ 
+	
+	
+WAR file contents
+-----------------
+
+	geronimo_codec (master)$ jar tf target/scala-2.10/simple_2.10-0.0.1.war
+	META-INF/MANIFEST.MF
+	WEB-INF/
+	WEB-INF/classes/
+	WEB-INF/classes/org/
+	WEB-INF/classes/org/example/
+	WEB-INF/lib/
+	WEB-INF/web.xml
+	WEB-INF/geronimo-web.xml
+	WEB-INF/lib/scala-library.jar
+	WEB-INF/lib/commons-codec-1.6.jar
+	index.html
+	WEB-INF/classes/org/example/MyFilter.class
+	
 
 Scala 2.10.1-RC1
 ----------------
